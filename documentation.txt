@@ -1,12 +1,41 @@
-###Exercise 6
-You will do a tutorial to be introduced with React. Once you are familiar with the library, you will redo your Calculator (vanilla Javascript) in React.
+Exercise 6
+You will do a tutorial to be introduced with React. Once you are familiar with the library, 
+you will redo your Calculator (vanilla Javascript) in React.
 
-###Documenting Your Results 
+https://github.com/skydwagon/349_exercise6
+https://dapper-crepe-833ed2.netlify.app
+
+Documenting Your Results 
+
 Questions: 
+
 What were some of the challenges you encountered?
+
+Some of the challenges I encountered while working on this exercise was primarily to do with 
+actually downloading the file from the tutorial and reworking the calculator. For the file, 
+what the tutorial described versus how to actually file -> export the tutorial files has been 
+changed and not updated on the tutorial site. Instead of Menu -> File -> Export, as it was 
+written, it was actually: Signin Via Github -> Dashboard -> Find Project -> 3 Dots -> Export. 
+This took me an embarassingly long time to figure this out. The tutorial thankfully was very 
+simple and actually fun to read and work along with. However, I had to redo the code of my 
+calculator as the methods I used in exercise 3 were incorrect, so those mistakes needed to be 
+corrected. 
 
 Differentiate between Real DOM and Virtual DOM. List out a few Differences.
 
-The DOM <button> element’s onClick attribute has a special meaning to React because it is a built-in component. For custom components like Square, the naming is up to you. You could give any name to the Square’s onSquareClick prop or Board’s handleClick function, and the code would work the same. In React, it’s conventional to use onSomething names for props which represent events and handleSomething for the function definitions which handle those events.
+Real DOM is the actual browser representation of a webpage's structure while the Virutal DOM 
+is a lightweight copy of it kept in the memory. Real DOM updates manipulate the rendered 
+structure which triggers reflows and repaints, leading to lower performance. However, the 
+Virtual DOM acts as a representation, it has a far more efficient updating method where it 
+first makes changes to the copy, then comparing it to the Real DOM to apply selective updates.
+Overall Real DOM reflects the present state of the webpage, while Virtual DOM optimizes and 
+minimizes the impact of updates. 
 
 What are some problems that React can solve for us?
+
+React solves and implifies a few problems, specifically with building interfaces by breaking 
+them down into reusable parts. These reusable parts can be used either in web development or 
+in mobile applications due to cross platform compatibility, thus allowing for quicker 
+development and maintenance. Additionally, its Virtual DOM only updates parts of the website 
+that have been changed rather than reloading the entire application constantly, this speeds 
+up web performance significantly. 

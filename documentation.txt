@@ -1,0 +1,12 @@
+###Exercise 6
+You will do a tutorial to be introduced with React. Once you are familiar with the library, you will redo your Calculator (vanilla Javascript) in React.
+
+###Documenting Your Results 
+Questions: 
+What were some of the challenges you encountered?
+
+Differentiate between Real DOM and Virtual DOM. List out a few Differences.
+
+The DOM <button> element’s onClick attribute has a special meaning to React because it is a built-in component. For custom components like Square, the naming is up to you. You could give any name to the Square’s onSquareClick prop or Board’s handleClick function, and the code would work the same. In React, it’s conventional to use onSomething names for props which represent events and handleSomething for the function definitions which handle those events.
+
+What are some problems that React can solve for us?

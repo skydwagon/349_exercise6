@@ -88,3 +88,79 @@ body {
 .game-info {
   margin-left: 20px;
 }
+
+
+.calcBody{
+  width: 350px;
+  height: 410px;
+  background-image: linear-gradient(#2d2163, #0B032D);
+  border-width: medium;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calcDisplay{
+  width: 270px;
+  height: 70px;
+  background-image: linear-gradient(#433583, #2d2163);
+  color: beige;
+  font-size: 36px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: right;
+  overflow: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.buttons{
+  justify-content: center;
+  align-items: center; 
+  width: 80%; 
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.num_button{
+  padding: 25px 25px;
+  background-image: linear-gradient(#843b62, #7e2755);
+  border-radius: 10px;
+  color:beige;
+}
+
+.num_button:hover{
+  background-image: linear-gradient(#621940, #7e2755);
+  box-shadow: 5px 5px black;
+}
+
+.sym_button{
+  padding: 25px 25px;
+  background-image: linear-gradient(#fca0a0, #F67E7D);
+  color: #0B032D;
+  border-radius: 10px;
+}
+.sym_button:hover{
+  background-image: linear-gradient(#ff6464, #F67E7D);
+  box-shadow: 5px 5px black;
+}
+
+.clear_button{
+  padding: 25px 25px;
+  background-image: linear-gradient(#493a8d, #2d2163);
+  color: beige; 
+  border-radius: 10px;
+}
+.clear_button:hover{
+  background-image: linear-gradient(#2a1d61, #2d2163);
+  box-shadow: 5px 5px black;
+}
